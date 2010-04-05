@@ -2,14 +2,14 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>Simple Email</title>
-	<link rel="stylesheet" href="./css/master.css" type="text/css" media="screen" charset="utf-8">
+	<%= stylesheet_link_tag "/css/master.css", :media => :screen %>
 </head>
 <body>
   <% if @success %>
     <h3>Sent! So simple!</h3>
   <% else %>
   
-    <h1><a href="/">Simple Email</a></h1>
+    <h1><%= link_to "Simple Email", "/" %></h1>
     
     <form action="send" method="post" accept-charset="utf-8" class="<%= "error" if @errors %>">
       <p>

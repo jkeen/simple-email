@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'sinatra'
 require 'erb'
+gem 'sinatra-static-assets'
+require 'sinatra/static_assets'
 #require 'action_mailer'
 
 module RFC822
