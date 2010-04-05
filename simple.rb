@@ -26,7 +26,7 @@ helpers do
   include Rack::Utils
 end
 
-get '/' do
+get '/?' do
   erb :index
 end
 
