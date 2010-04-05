@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'erb'
-require 'action_mailer'
+#require 'action_mailer'
 
 helpers do
   include Rack::Utils
