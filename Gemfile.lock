@@ -1,0 +1,29 @@
+--- 
+hash: 35bba2fc5f36b13ebbf2b0145b8477b923168dbd
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
+- Rubygems: 
+    uri: http://gems.github.com
+specs: 
+- rack: 
+    version: 1.2.1
+- sinatra: 
+    version: "1.0"
+- emk-sinatra-url-for: 
+    version: 0.2.1
+- sinatra-static-assets: 
+    version: 0.5.0
+dependencies: 
+  sinatra: 
+    version: ">= 0"
+    group: 
+    - :default
+    require: 
+    - sinatra
+  sinatra-static-assets: 
+    version: ">= 0"
+    group: 
+    - :default
+    require: 
+    - sinatra/static_assets

@@ -1,9 +1,9 @@
-require 'rubygems'
+require "rubygems"
+require "bundler"
+Bundler.setup
 require 'sinatra'
 require 'erb'
-gem 'sinatra-static-assets'
 require 'sinatra/static_assets'
-#require 'action_mailer'
 
 module RFC822
   EmailAddress = begin
